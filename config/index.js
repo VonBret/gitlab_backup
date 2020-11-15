@@ -1,3 +1,6 @@
+/**
+ * 配置文件信息，统一处理
+ */
 module.exports = {
     baseurl: process.env.GITLAB_BASE_URL,
     login: process.env.GITLAB_LOGIN,

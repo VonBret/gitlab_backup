@@ -16,7 +16,7 @@ npm run fetch
 yarn fetch
 ```
 
-### 需要在项目更目录下新建 .env 文件，配置如下
+### 需要在项目更目录下新建 .env 文件（这只是暂时的），配置如下
 
 ```bash
 # gitlab 配置

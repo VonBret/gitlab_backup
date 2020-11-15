@@ -9,7 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://keenfir.vicp.io:8099/keenfir/gitlab_backup.git"
+    "url": "http://keenfir.vicp.io:8099/keenfir/gitlab_backup.git",
+    "public_path": "http://keenfir.vicp.io:8099/u/keenfir"
   },
   "keywords": [
     "node.js下载 GitLab 存储库存档",

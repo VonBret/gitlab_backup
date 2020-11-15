@@ -1,10 +1,11 @@
-var dotenv = require("dotenv");
+var dotenv = require("dotenv"); // .env 文件支撑
 dotenv.config();
 
 var directory = require('./lib/directory');
 var fetch = require('./lib/fetch');
 var worker = require('./lib/worker');
 
+// 入口函数
 async function main () {
     await directory.delFilesFolders();
     await fetch.write();
