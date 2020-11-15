@@ -1,0 +1,32 @@
+{
+  "name": "gitlab_backup",
+  "version": "1.0.0",
+  "description": "gitlab backup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://keenfir.vicp.io:8099/keenfir/gitlab_backup.git"
+  },
+  "keywords": [
+    "node.js下载 GitLab 存储库存档",
+    "GitLab 存储库存档"
+  ],
+  "author": {
+    "name": "keenfir",
+    "email": "qdqx.von@foxmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "download-git-repo": "^3.0.2",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "qs": "^6.9.4",
+    "request": "^2.88.2",
+    "tar.gz": "^1.0.7"
+  }
+}

@@ -1,0 +1,6 @@
+.DS_Store
+data
+node_modules
+.env
+package-lock.json
+yarn.lock
