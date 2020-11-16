@@ -1,26 +1,36 @@
 {
-  "name": "gitlab_backup",
-  "version": "1.0.0",
-  "description": "gitlab backup",
+  "name": "gcb",
+  "version": "0.0.1",
+  "description": "gitlab and github code backup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "fetch": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "http://keenfir.vicp.io:8099/keenfir/gitlab_backup.git",
-    "public_path": "http://keenfir.vicp.io:8099/u/keenfir"
+    "url": "https://github.com:VonBret/gitlab_backup.git"
   },
   "keywords": [
-    "node.js下载 GitLab 存储库存档",
-    "GitLab 存储库存档"
+    "gitlab code backup",
+    "github code backup",
+    "code batch backup",
+    "gitLab storage vault archive",
+    "github storage vault archive",
+    "代码备份",
+    "gitlab代码备份",
+    "github代码备份",
+    "批量备份",
+    "代码批量备份",
+    "存储库存档",
+    "gitLab存储库存档",
+    "github存储库存档"
   ],
   "author": {
-    "name": "keenfir",
-    "email": "qdqx.von@foxmail.com"
+    "name": "VonBret",
+    "email": "qdqx.von@foxmail.com",
+    "url": "https://github.com/VonBret"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
     "download-git-repo": "^3.0.2",
