@@ -1,5 +1,5 @@
 {
-  "name": "gcb",
+  "name": "von-gcb",
   "version": "0.0.1",
   "description": "gitlab and github code backup",
   "main": "index.js",
