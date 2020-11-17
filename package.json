@@ -1,6 +1,6 @@
 {
   "name": "von-gcb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "gitlab and github code backup",
   "main": "index.js",
   "scripts": {
